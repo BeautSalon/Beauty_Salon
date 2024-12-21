@@ -1,0 +1,138 @@
+body{
+    /*background-color: rgba(255, 137, 225, 0.76);*/
+    background-image: url(imagens/rosa\ textura.avif);
+}
+.logo{
+    margin: 50px 0px;
+    height: 400px;
+}
+.voltar{
+    height: 28px;
+    margin-right: 84%;
+    margin-top: 17px;
+}
+.icone{
+    width: 100px;
+    border-radius: 51px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+}
+header{
+    background: url(imagens/rosa\ vetores.png) center center no-repeat fixed;
+    margin: -9px -8px 0px -8px;
+    background-size: cover;
+    text-align: center;
+    border: 1px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: solid;
+    border-color: black
+}
+.borda{
+    background-image: url(imagens/fundo\ rosa.avif);
+    margin: -21px 0px -1px 0px;
+    width: 99.9%;
+    border-radius: 0px 0px 9px 9px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.nome{
+    display: grid;
+    margin: 13px;
+    color: black;
+    text-decoration: none
+}
+.nome:hover{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    display: grid;
+    margin: 13px;
+    color: black;
+    text-decoration: none
+}
+.imag1{
+    height: 60px;
+    margin: -5px 5px;
+}
+.imag2{
+    height: 60px;
+    margin: 0px 9px;
+}
+.imag3{
+    height: 65px;
+    margin: -5px 5px;
+}
+.imagem{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    height: 158px;
+    border-radius:100%;
+}
+.imagem:hover{
+    padding: 10px;
+    height: 175px;
+    width: 175px;
+    border-radius:10px;
+}
+.imagem:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+}
+.rodape{
+    background: url(imagens/rosa\ vetores.png) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align:center;
+    margin: 0px -8px -9px -8px;
+    background-size: cover;
+    text-align: center;
+    border: 1px;
+    border-radius: 10px 10px 0px 0px;
+    border-style: solid;
+    border-color: black
+}
+.form{
+    background-color: #ffb6f9;
+    display: inline-grid;
+    padding: 30px 60px;
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.botaoenv:hover {
+    text-decoration: underline;
+    border-style: solid;
+}
+.icones{
+    height: 40px;
+}
+.icones:hover{
+    height: 50px;
+}
+.mensagem{
+    height: 100px;
+    width: 190px;
+}
+table{
+    text-align: center;
+}
+.textoarea{
+    margin: 25px;
+}
+.texto{
+    text-align: justify;
+}
+.texto1{
+    text-align: center;
+}
