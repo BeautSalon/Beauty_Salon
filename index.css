@@ -98,7 +98,7 @@ p{
 }
 .parceira{
     width: 100px;
-    background: url(imagens/rosa\ textura.avif) center center no-repeat fixed;
+    background: url(imagens/agua.avif) center center no-repeat fixed;
     display:inline-block;
     border-radius: 10px;
 }
@@ -109,6 +109,6 @@ p{
     border-color: black;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.salao{
+.poseidon{
     width: 100%;
 }
