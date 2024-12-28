@@ -97,6 +97,7 @@ p{
     margin: 70px;
 }
 .parceira{
+    margin:50px 0px;
     width: 100px;
     background: url(imagens/agua.avif) center center no-repeat fixed;
     display:inline-block;
@@ -111,4 +112,8 @@ p{
 }
 .poseidon{
     width: 100%;
+}
+a.tridente{
+    display: flex;
+    justify-content: center;
 }
