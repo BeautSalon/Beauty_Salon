@@ -99,7 +99,7 @@ p{
 .parceira{
     margin:50px 0px;
     width: 100px;
-    background: url(imagens/agua.avif) center center no-repeat fixed;
+    background: url(imagens/agua.avif);
     display:inline-block;
     border-radius: 10px;
 }
