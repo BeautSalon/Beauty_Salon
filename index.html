@@ -8,6 +8,51 @@
     
 </head>
 <body>
+    <style>
+     /* Estilo do botão */
+            #topButton {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                height: 38px;
+                background: transparent;
+                padding: 0px;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+                display: none; /* Inicialmente escondido */
+            }
+    
+            #topButton:hover {
+                background: transparent;
+            }
+            .topo{
+                transform: rotate(90deg);
+                border-radius: 50px;
+                width: 38px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Botão Voltar ao topo -->
+        <button id="topButton" onclick="scrollToTop()"><img src="imagens/voltar pt.webp" alt="voltar ao topo" class="topo"></button>
+    
+        <script>
+            // Mostrar o botão quando o usuário rolar a página
+            window.onscroll = function() {
+                let button = document.getElementById("topButton");
+                if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                    button.style.display = "block";
+                } else {
+                    button.style.display = "none";
+                }
+            };
+    
+            // Função para rolar até o topo
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        </script>
     <header>
         <img alt="logotipo" class="logo" src="imagens/beauty salon.avif">
         <div>
